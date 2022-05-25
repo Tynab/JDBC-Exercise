@@ -17,9 +17,11 @@
 		<form action="" method="post" class="form">
 			<div class="user-box">
 				<input type="text" name="username" required=""> <label>Username</label>
+				<!-- admin -->
 			</div>
 			<div class="user-box">
 				<input type="password" name="password" required=""> <label>Password</label>
+				<!-- admin -->
 			</div>
 			<a href="javascript:$('form').submit()"> <span></span><span></span>
 				<span></span> <span></span> Submit
