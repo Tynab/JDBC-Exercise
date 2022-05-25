@@ -25,8 +25,9 @@ public class LoginController extends HttpServlet {
 		var user = new UserModel().getUser(userName, password);
 		if (user != null) {
 			AddSession(req, SESSION_LOGIN, userName, 60);
-			resp.sendRedirect("https://divine-quest-265303.uc.r.appspot.com");
+			resp.sendRedirect(req.getContextPath() + "/welcome");
 		} else {
+			req.setAttribute("checkLogin","failed");
 			req.getRequestDispatcher("login.jsp").forward(req, resp);
 		}
 	}

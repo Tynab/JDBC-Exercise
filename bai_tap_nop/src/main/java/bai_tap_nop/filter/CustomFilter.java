@@ -30,7 +30,7 @@ public class CustomFilter implements Filter {
 		var valSession = (String) session.getAttribute(SESSION_LOGIN);
 		var isExistUser = valSession != null;
 		if (isExistUser) {
-			resp.sendRedirect("https://divine-quest-265303.uc.r.appspot.com");
+			resp.sendRedirect(req.getContextPath() + "/welcome");
 		} else {
 			chain.doFilter(request, response);
 		}
