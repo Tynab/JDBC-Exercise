@@ -1,12 +1,10 @@
 package bai_tap_nop.controller;
 
-import java.io.IOException;
+import java.io.*;
 
-import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import javax.servlet.*;
+import javax.servlet.annotation.*;
+import javax.servlet.http.*;
 
 import static bai_tap_nop.constant.Constant.*;
 

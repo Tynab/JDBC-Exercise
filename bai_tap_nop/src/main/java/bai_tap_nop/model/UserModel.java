@@ -1,7 +1,8 @@
 package bai_tap_nop.model;
 
-import bai_tap_nop.pojo.User;
-import java.sql.SQLException;
+import java.sql.*;
+
+import bai_tap_nop.pojo.*;
 
 import static bai_tap_nop.connection.MySQLConnection.*;
 
