@@ -24,7 +24,7 @@ public class LoginController extends HttpServlet {
 		var password = req.getParameter("password");
 		var user = new UserModel().getUser(userName, password);
 		if (user != null) {
-			AddSession(req, SESSION_LOGIN, userName, 60);
+			addSession(req, SESSION_LOGIN, userName, 60);
 			resp.sendRedirect(req.getContextPath() + "/welcome");
 		} else {
 			req.setAttribute("checkLogin", "failed");
@@ -33,7 +33,7 @@ public class LoginController extends HttpServlet {
 	}
 
 	// add session
-	private void AddSession(HttpServletRequest req, String name, String value, int interval) {
+	private void addSession(HttpServletRequest req, String name, String value, int interval) {
 		var session = req.getSession();
 		session.setAttribute(name, value);
 		session.setMaxInactiveInterval(interval);
