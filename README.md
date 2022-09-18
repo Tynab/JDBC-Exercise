@@ -11,5 +11,5 @@
 
 ## HÌNH ẢNH DEMO
 <p align="center">
-<img src="https://media-exp1.licdn.com/dms/image/C5622AQEyHTQ-PkK3Rg/feedshare-shrink_2048_1536/0/1658993917439?e=1661990400&v=beta&t=B6VKAfkF8vcT2UBBqhQfGOFJ7Y1c8_a7U_Ttqmr2wyQ"></img>
+<img src="https://raw.githubusercontent.com/Tynab/JDBC-Exercise/master/pic/0.jpg"></img>
 </p>
