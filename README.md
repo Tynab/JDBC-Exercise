@@ -10,6 +10,6 @@
         - Nếu đã đăng nhập chuyển qua trang thông tin người dùng.
 
 ## HÌNH ẢNH DEMO
-<p align="center">
-<img src="https://raw.githubusercontent.com/Tynab/JDBC-Exercise/master/pic/0.jpg"></img>
+<p align='center'>
+<img src='pic/0.jpg'></img>
 </p>
